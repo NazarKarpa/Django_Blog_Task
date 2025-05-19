@@ -2,7 +2,7 @@ import django_setup
 from Blog_app.models import Blog, Comment
 
 
-# Створення записів у блозі
+
 blog1 = Blog.objects.create(
     name="Як працює Django ORM",
     instead="У цій статті розглянемо, як Django працює з базами даних.",
@@ -15,7 +15,7 @@ blog2 = Blog.objects.create(
     data_create="2025-05-15"
 )
 
-# Створення коментарів
+
 comment1 = Comment.objects.create(
     text="Дуже корисна стаття! Дякую!",
     author="Марія Іваненко",
